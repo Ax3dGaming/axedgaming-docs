@@ -1,4 +1,4 @@
-# Scavenging
+![Scavenging](../assets/images/scavenging_title.png)
 
 Scavenging is a data-driven system that allows players to search blocks for loot.
 

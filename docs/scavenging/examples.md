@@ -6,6 +6,8 @@ This page contains ready-to-use Scavenging recipe examples.
 
 This recipe requires a stone shovel and has a 25% chance to drop flint.
 
+![Example 1](../assets/images/scavenging-example-1.png)
+
 === "JSON"
 
     ```json
@@ -69,6 +71,8 @@ This recipe requires a stone shovel and has a 25% chance to drop flint.
 ## Damaging Tool Recipe
 
 This recipe consumes 1 durability from the tool every time it is executed.
+
+![Example 2](../assets/images/scavenging-example-2.png)
 
 === "JSON"
 
@@ -136,6 +140,8 @@ This recipe consumes 1 durability from the tool every time it is executed.
 
 This recipe only works when the player right-clicks the block with an empty hand.
 
+![Example 3](../assets/images/scavenging-example-3.png)
+
 === "JSON"
 
     ```json
@@ -195,6 +201,8 @@ This recipe only works when the player right-clicks the block with an empty hand
 ## Multiple Outputs
 
 Each output is rolled independently, so several items can drop from the same scavenging action.
+
+![Example 4](../assets/images/scavenging-example-4.png)
 
 === "JSON"
 
