@@ -1,0 +1,48 @@
+site_name: AxedGaming Mods Documentation
+site_url: https://ax3dgaming.github.io/axedgaming-docs/
+
+theme:
+  name: material
+  language: en
+
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+copyright: |
+  Copyright © 2026 AxedGaming
+
+nav:
+  - Home: index.md
+  - Scavenging:
+      - Overview: scavenging/index.md
+      - Getting Started: scavenging/getting-started.md
+      - Recipe Format: scavenging/recipe-format.md
+      - Examples: scavenging/examples.md
+      - FAQ: scavenging/faq.md
